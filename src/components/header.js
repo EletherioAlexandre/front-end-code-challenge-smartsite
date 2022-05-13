@@ -8,7 +8,9 @@ function Header() {
           <img src={logo} alt="SmartFit" />
         </div>
         <div className="title-from-header">
-          <h1>REABERTURA SMART FIT</h1>
+          <h1>
+            REABERTURA <br /> SMART FIT
+          </h1>
           <div className="border-bottom"></div>
           <p>
             O horário de funcionamento das nossas unidades está seguindo os
