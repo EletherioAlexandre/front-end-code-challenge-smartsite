@@ -1,0 +1,63 @@
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .top-from-header {
+        background-color: #000;
+        width: 100%;
+        height: auto;
+        padding: 3%;
+        
+    
+        img {
+            width: 20%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .title-from-header {
+        margin: 50px 50px;
+        padding: 50px;
+
+        h1 {
+            font-size: 4.3rem;
+            width: 40%;
+            line-height: 53px;
+            color: #333333;
+        }
+
+        .border-bottom {
+            border-bottom: 14px solid #333333;
+            width: 120px;
+            margin-top: 1.5%;
+        }
+
+        p {
+            font-size: 2.3rem;
+            margin-top: 5%;
+        }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 426px) {
+        .top-from-header {
+            background-color: #000;
+            width: 100vh;
+            height: auto;
+            padding: 3%;
+        }
+    }
+}
